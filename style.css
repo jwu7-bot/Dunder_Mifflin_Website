@@ -1,0 +1,356 @@
+/********f************
+    
+    Project 4 Stylesheet
+    Name: JiaHui Wu
+    Date: 2023-12-9
+    Description: Styles for Project 4
+
+********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+h2.title {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+h2.title span{
+    color: #00ff08; 
+}
+
+/* HEADER STYLE */
+header {
+    padding: 40px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #9C9C9C;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: .2s;
+}
+
+header a:hover, button:hover {
+    color: red;
+    transform: scale(1.05);
+}
+
+header .top-menu nav ul {
+    list-style: none;
+}
+
+header .top-menu ul a:focus {
+    color: #f00;
+}
+
+header .top-menu ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contact button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contact button:hover {
+    box-shadow: 0px 0px 8px #04c00a;
+}
+
+/* TOP STYLE */
+.top {
+    padding: 40px 4%;
+}
+
+.top .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top .txt-top h1 {
+    color: #fff;
+    font-size: 33px;
+    line-height: 30px;
+}
+
+.top .txt-top p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+/* COMPANY UPDATES STYLE */
+section {
+    padding-bottom: 100px;
+}
+
+section .updates {
+    padding: 40px 4%;
+}
+
+section .updates .flex {
+    gap: 60px;
+}
+
+.updates .updates-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.updates .updates-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff67;
+}
+
+.updates .updates-box h3 {
+    font-size: 23px;
+    margin: 15px 0;
+}
+
+/* FOOTER STYLE */
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition: .2s;
+}
+
+footer .logo-footer img {
+    width: 100px;
+}
+
+footer a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+footer .bottom-menu nav ul {
+    list-style: none;
+}
+
+footer .bottom-menu ul a:focus {
+    color: #f00;
+}
+
+footer .bottom-menu ul li {
+    display: inline-block;
+    font-size: 11px;
+    padding: 0 0px;
+    padding-left: 50px;
+}
+
+footer .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00ff08;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+/* PRODUCTS STYLE */
+section .product-container {
+    display: flex;
+    flex-direction: row;
+}
+
+section .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.product span {
+    font-size: 30px;
+}
+
+/* CONTACT STYLE */
+section.contact {
+    padding: 30px 4%;
+}
+
+section.contact select {
+	color: red;
+}
+
+section .label-input {
+    padding-top: 20px;
+}
+
+section .label-input label {
+    color: #fff;
+    font-size: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    height: 300px;
+}
+
+form .btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+form .submit, .clear {
+    text-align: center;
+    margin-top: 40px;
+}
+
+form .submit input, .clear input {
+    width: 120px;
+    background-color: #00ff08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .submit input:hover, .clear input:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
+/* ERROR STYLES */
+.error {
+    color: red;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1020px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    /* HEADER */
+    header .interface{
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    header.top-menu ul li{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* TOP */
+    .top {
+        padding: 20px 8%;
+    }
+
+    .top h1 {
+        font-size: 30px;
+    }
+
+    .top .img-top {
+        margin-top: -100px;
+    }
+
+    /* FOOTER */
+    footer .interface {
+        gap: 10px;
+    }
+
+    footer .bottom-menu ul li {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    /* PRODUCTS */
+    section .product-container {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
