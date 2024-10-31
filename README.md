@@ -6,15 +6,6 @@
 
 Welcome to the Dunder Mifflin Website project! This is a web application inspired by the fictional paper company from the TV show "The Office." The site showcases the company's products, services, and fun features related to the series.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - **Responsive Design:** The website is designed to be mobile-friendly and looks great on all devices.
@@ -28,7 +19,6 @@ Welcome to the Dunder Mifflin Website project! This is a web application inspire
 - HTML
 - CSS
 - JavaScript
-- [Any additional libraries or frameworks used, e.g., Bootstrap, jQuery, etc.]
 
 ## Installation
 
