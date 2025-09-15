@@ -1,6 +1,4 @@
-## Dunder Mifflin Website
-
-## Link: [https://jwu7-bot.github.io/dunder_mifflin_website/](https://jwu7-bot.github.io/Dunder_Mifflin_Website/)
+## GitHub Pages: [https://jwu7-bot.github.io/dunder_mifflin_website/](https://jwu7-bot.github.io/Dunder_Mifflin_Website/)
 
 # Dunder Mifflin Website
 
